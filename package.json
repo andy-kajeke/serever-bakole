@@ -1,0 +1,20 @@
+{
+    "name": "bakole",
+    "version": "1.0.0",
+    "description": "Access jobs and works you need around your home and work places at any time ",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "author": "Planet Systems (U) Ltd",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "multer": "^1.4.2",
+        "mysql": "^2.17.1",
+        "nodemon": "^2.0.1"
+    }
+}
